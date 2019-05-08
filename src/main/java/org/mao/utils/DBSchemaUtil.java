@@ -51,13 +51,13 @@ public class DBSchemaUtil extends JFrame {
     //数据库配置文件路径
     private String jdbcPropertiesFilePath = "/conf/jdbc.properties";
     //仓库前缀
-    private String repositoryPrefix = "mao";
-    //生成源代码的根路径，一般是git库的本地路径
-    private String filePath = "D:/mybatis-generator/" + repositoryPrefix + "-loan";
+    private String repositoryPrefix = "";
     //模块的名称
-    private String basePackage = "loan";
+    private String basePackage = "";
+    //生成源代码的根路径，一般是git库的本地路径
+    private String filePath = "E:/mybatis-generator/" + repositoryPrefix + "-" + basePackage;
     //子模块名称
-    private String module = "pfina";
+    private String module = "";
 
     private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
